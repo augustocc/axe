@@ -267,7 +267,7 @@ function loadpostvars() {
 			$transfpost["%%POSTTAGS%%"]="";
 		}
 		$transfpost["%%BODYAD%%"]=try_file_get_contents("bodyad.php");
-		if (strlen(trim($transfpost["%%POSTOLDCOMMENTS%%"]))<15) $transfpost["%%POSTOLDCOMMENTS%%"]="Não há comentários arquivados";
+		if (strlen(trim($transfpost["%%POSTOLDCOMMENTS%%"]))<15) $transfpost["%%POSTOLDCOMMENTS%%"]="Ninguém quer saber!";
 		else if (strlen(trim($transfpost["%%POSTOLDCOMMENTS%%"]))>40000) {
 			$transfpost["%%POSTOLDCOMMENTS%%"]=substr($transfpost["%%POSTOLDCOMMENTS%%"],0,40000);
 			$divpos=strrpos($transfpost["%%POSTOLDCOMMENTS%%"],"</div>");
@@ -316,7 +316,7 @@ function loadpostvars() {
 		$transfpost["%%POSTMID%%"]=trim(cutonword(strip_tags(corrigehtml($POST['POSTBODY'])),350));
 		$transfpost["%%POSTMID%%"]=preg_replace('/[[:cntrl:]]/',"",$transfpost["%%POSTMID%%"]);		
 		//$transfpost["%%POSTMID%%"]=strip_tags($transfpost["%%POSTMID%%"]);				
-		$transfpost["%%POSTBODY%%"]=paragrafos(corrigehtml($POST['POSTBODY']));		
+		//$transfpost["%%POSTBODY%%"]=paragrafos(corrigehtml($POST['POSTBODY']));		
 		$transfpost["%%POSTNEWSBODY%%"]=corrigehtml($POST['POSTBODY']);		
 		if (!isset($transfpost['POSTAUTHOR'])) {
 			$transfpost['%%POSTAUTHOR%%']=blogparm('BLOGOWNER');
