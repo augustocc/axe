@@ -2,7 +2,7 @@
 
 *ATUALIZAÇÃO EM 6.5.2026*
 
-Doze anos depois, o Axe ainda continua em uso, e sua base de código permanece a mesma desde a versão que disponibilizei aqui em 2013, exceto quanto a pequenas atualizações demandadas pela evolução da sintaxe do PHO em modo shell.
+Doze anos depois, o Axe ainda continua em uso, e sua base de código permanece a mesma desde a versão que disponibilizei aqui em 2013, exceto quanto a pequenas atualizações demandadas pela evolução da sintaxe do PHP em modo shell.
 
 Este repositório no Github não será mais mantido, e as comunicações nele não serão mais monitoradas. O código-fonte publicado nele permanece sendo o de 2013.
 
