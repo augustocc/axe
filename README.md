@@ -1,5 +1,22 @@
 <h1>AXE CMS</h1>
 
+*ATUALIZAÇÃO EM 6.5.2026*
+
+Doze anos depois, o Axe ainda continua em uso, e sua base de código permanece a mesma desde a versão que disponibilizei aqui em 2013, exceto quanto a pequenas atualizações demandadas pela evolução da sintaxe do PHO em modo shell.
+
+Este repositório no Github não será mais mantido, e as comunicações nele não serão mais monitoradas. O código-fonte publicado nele permanece sendo o de 2013.
+
+Pretendo disponibilizar o download de uma versão atualizada do pacote tar de instalação e código-fonte, no próprio <a href="http://augustocampos.net/axe/blog/">site do Axe</a>.
+
+Um abraço a todos,
+
+Augusto Campos
+
+----
+
+## Sobre o Axe
+
+
 O Axe é um sistema gerenciador de conteúdo estático especializado na geração de blogs. Em outras palavras: o Axe é um sistema em PHP que, a partir de arquivos contendo apenas o título e o corpo do post, em formato texto ou HTML, gera toda a estrutura típica de um blog: índices, feed, tags, sitemap, etc.
 
 As atividades de administração do Axe ocorrem via linha de comando no Terminal, portanto ele exige que você tenha acesso shell (SSH ou similar) ao seu servidor de hospedagem e saiba usá-lo. Ele também exige que o PHP esteja disponível na linha de comando, embora dispense a ativação do mod_php no servidor web.
