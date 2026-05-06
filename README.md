@@ -4,9 +4,9 @@
 
 Doze anos depois, o Axe ainda continua em uso, e sua base de código permanece a mesma desde a versão que disponibilizei aqui em 2013, exceto quanto a pequenas atualizações demandadas pela evolução da sintaxe do PHP em modo shell.
 
-Este repositório no Github não será mais mantido, e as comunicações nele não serão mais monitoradas. O código-fonte publicado nele permanece sendo o de 2013.
+Este repositório no Github não será mais mantido, e as comunicações nele não serão mais monitoradas. O código-fonte publicado aqui vai permanecer sendo o de 2013.
 
-Pretendo disponibilizar o download de uma versão atualizada do pacote tar de instalação e código-fonte, no próprio <a href="http://augustocampos.net/axe/blog/">site do Axe</a>.
+Em compensação, disponibilizei hoje o download de uma versão atualizada do pacote tar de instalação e código-fonte, no próprio <a href="http://augustocampos.net/axe/blog/">site do Axe</a>. É quase igual à versão de 2013, com alteração apenas em 2 arquivos PHP, descritos por lá.
 
 Um abraço a todos,
 
