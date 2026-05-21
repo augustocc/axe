@@ -187,7 +187,7 @@ function gera_single($caminho, $force=false, $preview=false,$contaitems=1000) {
 		if (gravaarquivohtml($nome,$single,$force,$preview)) {
 			if (isset($POST['POSTID'])) criasymlink($nome,$POST['POSTID']);
 			if (!$preview) criafonteeditavel($nome,$force,$preview);
-			if (true===$quickrebuild) { // não terá rebuild imediato, portanto atualiza já as tags afetadas 
+			if (true!=$quickrebuild) { // não terá rebuild imediato, portanto atualiza já as tags afetadas 
 				foreach(explode(",",$POST['POSTTAGS']) as $tag) {
 					if (strlen(trim($tag))>0) cria_tagindex($tag);
 				}			
